@@ -1,0 +1,112 @@
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitle, .chat {
+    color: dodgerblue;
+    font-weight: 700 ;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    flex: 4;
+    margin-left: 30px;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+.title, label, button, p, .wrap {
+    color: #fff;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.chat {
+    margin-top: -40px;
+}
+
+input {
+    width: 260px;
+    height: 20px;
+    border: 2px dashed dodgerblue;
+    /* background-color: black; */
+}
+
+
+
+#btn {
+    width: 85px;
+    height: 30px;
+    background-color: dodgerblue;
+    border: none;
+    font-weight: 700;
+}
+
+#btn:hover {
+    cursor: pointer;
+}
+
+#btn:active {
+    transform: scale(1.1);
+    transition: .3;
+}
+#message {
+    width: 260px;
+    height: 150px;
+}
+
+label {
+    gap: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#user__img {
+    width: 15px;
+    height: 20px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#user__msg {
+    width: 100%;
+}
+
+.active_msg {
+    border-bottom: 2px dashed dodgerblue;
+    margin-top: 15px;
+}
+
+
+#user__name {
+    color: dodgerblue;
+    font-weight: 700;
+}
+
+#user__avatar {
+    width: 80px;
+    height: 80px;
+}
